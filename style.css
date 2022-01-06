@@ -8,11 +8,32 @@ body {
 .half-width {
     width: 50%;
     padding-left: 70px ;
-    padding-right: 70px;
+    padding-right: 40px;
     padding-top: 30px;
     padding-bottom: 20px;
 
 }
 section img {
     width: 100%;
+}
+.bold-text {
+    font-size: 40px;
+    font-weight:bolder;
+}
+.colorful-text {
+    color: rgb(173, 9, 36);
+}
+#line {
+    border-left: 4px solid;
+    border-image: linear-gradient(red, pink);
+    border-image-slice: 1;
+    padding-right: ;
+}
+.button {
+    text-decoration: none;
+    font-weight: 800;
+    color: white;
+    border-radius: 5px;
+    background-image: linear-gradient(red, rgb(224, 49, 255));
+    padding: 7px 15px;
 }
