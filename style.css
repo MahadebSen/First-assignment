@@ -46,7 +46,7 @@ section img {
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-image: linear-gradient(rgb(248, 196, 183), rgb(245, 116, 65));
+    background-image: linear-gradient(rgb(248, 196, 183), rgb(245, 161, 65));
     margin-top: 80px;
     margin-bottom: 70px;
     margin-right: 15px;
@@ -60,7 +60,7 @@ section img {
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-image: linear-gradient(rgb(120, 240, 214), rgb(106, 106, 255));
+    background-image: linear-gradient(rgb(120, 240, 214), rgb(128, 128, 248));
     margin-top: 80px;
     margin-bottom: 70px;
     margin-right: 15px;
@@ -74,7 +74,7 @@ section img {
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-image: linear-gradient(rgb(255, 244, 184), rgb(219, 238, 45));
+    background-image: linear-gradient(rgb(124, 241, 134), rgb(191, 245, 224));
     margin-top: 80px;
     margin-bottom: 70px;
     margin-right: 75px;
@@ -101,6 +101,18 @@ h1 {
     background-size: 180px 180px;
     background-position: 10px 100px;
 }
+.bgi-b{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 120px 120px;
+    background-position: 826px 310px;
+}
+.last-section {
+    padding-top: 80px ;
+    padding-bottom: 40px ;
+    padding-left: 10px;
+    padding-right:10px ;
+}
 footer {
     font-family: 'Dancing Script', cursive;
     background-color:black ;
@@ -114,7 +126,7 @@ span {
 footer div {
     color: whitesmoke;
 }
-#foot-heading {
+.foot-heading {
     font-size: 35px;
     font-weight: 800;
 }
